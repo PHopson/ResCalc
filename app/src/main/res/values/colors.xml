@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="BLACK">#FF000000</color>
+	<color name="BROWN">#FF993300</color>
+	<color name="RED">#FFFF0000</color>
+	<color name="ORANGE">#FFFF9900</color>
+	<color name="YELLOW">#FFFFFF00</color>
+	<color name="GREEN">#FF33CC33</color>
+	<color name="BLUE">#FF0000FF</color>
+	<color name="VIOLET">#FF990099</color>
+	<color name="GREY">#FF808080</color>
+	<color name="WHITE">#FFFFFFFF</color>
+	<color name="GOLD">#FFFFCC00</color>
+	<color name="SILVER">#FF999966</color>
+	
+	<array name="base_color_vals">
+	    <item>@color/BLACK</item>
+	    <item>@color/BROWN</item>
+	    <item>@color/RED</item>
+	    <item>@color/ORANGE</item>
+	    <item>@color/YELLOW</item>
+	    <item>@color/GREEN</item>
+	    <item>@color/BLUE</item>
+	    <item>@color/VIOLET</item>
+	    <item>@color/GREY</item>
+	    <item>@color/WHITE</item>
+	</array>
+	
+	<array name="multi_color_vals">
+	    <item>@color/BLACK</item>
+	    <item>@color/BROWN</item>
+	    <item>@color/RED</item>
+	    <item>@color/ORANGE</item>
+	    <item>@color/YELLOW</item>
+	    <item>@color/GREEN</item>
+	    <item>@color/BLUE</item>
+	    <item>@color/VIOLET</item>
+	    <item>@color/GOLD</item>	    
+	    <item>@color/SILVER</item>
+	</array>
+	
+	<array name="tol_color_vals">
+	    <item>@color/WHITE</item>
+	    <item>@color/BLACK</item>
+	    <item>@color/BROWN</item>
+	    <item>@color/RED</item>
+	    <item>@color/ORANGE</item>
+	    <item>@color/YELLOW</item>
+	    <item>@color/GREEN</item>
+	    <item>@color/BLUE</item>
+	    <item>@color/VIOLET</item>
+	    <item>@color/GOLD</item>	    
+	    <item>@color/SILVER</item>	    
+	</array>
+	
+	<array name="temp_color_vals">
+	    <item>@color/BLACK</item>
+	    <item>@color/BROWN</item>
+	    <item>@color/RED</item>
+	    <item>@color/ORANGE</item>
+	    <item>@color/YELLOW</item>
+	    <item>@color/GREEN</item>
+	    <item>@color/BLUE</item>
+	    <item>@color/VIOLET</item>
+	    <item>@color/GREY</item>    
+	</array>
+	
+</resources>

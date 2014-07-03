@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+    	android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Spinner
+	        android:id="@+id/sig1_band"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1" />
+	
+	    <Spinner
+	        android:id="@+id/sig2_band"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1" />
+	
+	    <Spinner
+	        android:id="@+id/sig3_band"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1" />
+	
+	    <Spinner
+	        android:id="@+id/multiplier_band"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1" />
+	
+	    <Spinner
+	        android:id="@+id/tolerance_band"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1" />
+	
+	    <Spinner
+	        android:id="@+id/tempco_band"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1" />
+
+    </LinearLayout>
+    
+	<TextView
+        android:id="@+id/subtotal_display"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textSize="20sp" />
+    
+	<TextView 
+        android:id="@+id/final_display"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textSize="25sp" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Resistor Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="numbands_array">
+        <item>4 bands</item>
+        <item>5 bands</item>
+        <item>6 bands</item>
+    </string-array>
+
+    <string-array name="base_color_array">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Grey</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="multi_color_array">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Gold</item>
+        <item>Silver</item>
+    </string-array>
+
+    <string-array name="tolerance_color_array">
+        <item>None</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Grey</item>
+        <item>Gold</item>
+        <item>Silver</item>
+    </string-array>
+
+    <string-array name="temperature_color_array">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Grey</item>
+    </string-array>
+
+</resources>
