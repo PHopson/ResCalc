@@ -4,6 +4,71 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="111dip" >
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        <View
+            android:id="@+id/sig1_color"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        <View
+            android:id="@+id/sig2_color"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        <View
+            android:id="@+id/sig3_color"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        <View
+            android:id="@+id/multiplier_color"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/tolerance_color"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/temperature_color"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="2" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
     
     <LinearLayout
     	android:orientation="horizontal"

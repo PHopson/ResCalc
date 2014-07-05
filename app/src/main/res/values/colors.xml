@@ -41,14 +41,13 @@
 	
 	<array name="tol_color_vals">
 	    <item>@color/WHITE</item>
-	    <item>@color/BLACK</item>
 	    <item>@color/BROWN</item>
 	    <item>@color/RED</item>
-	    <item>@color/ORANGE</item>
 	    <item>@color/YELLOW</item>
 	    <item>@color/GREEN</item>
 	    <item>@color/BLUE</item>
 	    <item>@color/VIOLET</item>
+        <item>@color/GREY</item>
 	    <item>@color/GOLD</item>	    
 	    <item>@color/SILVER</item>	    
 	</array>
