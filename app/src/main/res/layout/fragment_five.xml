@@ -5,61 +5,92 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="111dip" >
+    <RelativeLayout
+        android:layout_height="120dip"
+        android:layout_width="match_parent" >
+
+    <View
+        android:id="@+id/left"
+        android:background="@color/GREY"
+        android:layout_width="30dp"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true" />
+
+    <View
+        android:id="@+id/mid"
+        android:layout_toRightOf="@id/left"
+        android:layout_toLeftOf="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:layout_centerVertical="true"
+        android:background="@color/BODY"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_centerVertical="true" >
+
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+            <View
+                android:id="@+id/sig1_color"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/sig2_color"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/sig3_color"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/multiplier_color"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+            <View
+                android:id="@+id/tolerance_color"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="2" />
+        </LinearLayout>
 
         <View
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="1" />
-        <View
-            android:id="@+id/sig1_color"
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="2" />
-        <View
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="1" />
-        <View
-            android:id="@+id/sig2_color"
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="2" />
-        <View
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="1" />
-        <View
-            android:id="@+id/sig3_color"
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="2" />
-        <View
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="1" />
-        <View
-            android:id="@+id/multiplier_color"
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="2" />
-        <View
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="2" />
-        <View
-            android:id="@+id/tolerance_color"
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="2" />
-        <View
-            android:layout_height="match_parent"
-            android:layout_width="0dip"
-            android:layout_weight="1" />
-    </LinearLayout>
+            android:id="@id/right"
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:background="@color/GREY"
+            android:layout_height="30dip"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
     
 	<LinearLayout
     	android:orientation="horizontal"
@@ -97,21 +128,28 @@
         	android:layout_weight="1" />
 	
 	</LinearLayout>
-	
-	<TextView
-        android:id="@+id/subtotal_display"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="0dip"
-        android:layout_weight="1"
-        android:textSize="20sp" />
 
-	<TextView 
-        android:id="@+id/final_display"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="0dip"
-        android:layout_weight="1"
-        android:textSize="25sp" />
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/subtotal_display"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/final_display"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp" />
+
+    </LinearLayout>
 	    
 </LinearLayout>

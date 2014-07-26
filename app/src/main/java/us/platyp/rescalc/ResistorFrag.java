@@ -138,7 +138,7 @@ public class ResistorFrag extends Fragment implements AdapterView.OnItemSelected
     	
     	double[] tolArray = {0.20, 0.01, 0.02, 0.05, 0.005, 0.0025, 0.001, 0.0005, 0.05, 0.1};
     	
-    	subresult = String.valueOf((int)subtotal) + " \u03A9" + "\t" + String.valueOf( (int)(100*tolArray[tolerance.getSelectedItemPosition()]) ) + "%";
+    	subresult = String.valueOf((int)subtotal) + "\u03A9" + "\t\t" + String.valueOf( (100*tolArray[tolerance.getSelectedItemPosition()]) ) + "%";
     	
     	result = String.valueOf( (int) (subtotal - (tolArray[tolerance.getSelectedItemPosition()] * subtotal)) ) + " - " +
     			String.valueOf( (int) (subtotal * (1+tolArray[tolerance.getSelectedItemPosition()])) ) + " \u03A9";

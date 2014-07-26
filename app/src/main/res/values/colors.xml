@@ -12,6 +12,7 @@
 	<color name="WHITE">#FFFFFFFF</color>
 	<color name="GOLD">#FFFFCC00</color>
 	<color name="SILVER">#FF999966</color>
+    <color name="BODY">#FF2E99E6</color>
 	
 	<array name="base_color_vals">
 	    <item>@color/BLACK</item>
