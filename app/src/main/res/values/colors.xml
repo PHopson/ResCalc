@@ -41,7 +41,7 @@
 	</array>
 	
 	<array name="tol_color_vals">
-	    <item>@color/WHITE</item>
+	    <item>@android:color/transparent</item>
 	    <item>@color/BROWN</item>
 	    <item>@color/RED</item>
 	    <item>@color/YELLOW</item>
